@@ -11,8 +11,7 @@ header {
     margin: 0;
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    background-color: #CCC;
+    align-items: center;
 }
 
 .header {
@@ -21,7 +20,8 @@ header {
 }
 
 .slider {
-    flex: 1;
+    width: 800px;
+    height: 400px;
     overflow: hidden;
 }
 
@@ -36,12 +36,17 @@ header {
     height: inherit;
     background-position: center;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-shadow: 0px 1px  1px #333;
+    font-size: 50px;
 }
 
 .slider--controls {
     position: absolute;
     z-index: 99;
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
